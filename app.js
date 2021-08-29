@@ -25,7 +25,7 @@ function clobberer(target, href) {
             ]);
     } else if (target.length === 3) {
         res = res.concat([
-            `<form id="${target[0]}">\n<form id="${target[0]}" name="${target[1]}">\n  <input name="${target[2]}">\n</form>`
+            `<form id="${target[0]}"></form>\n<form id="${target[0]}" name="${target[1]}">\n  <input name="${target[2]}">\n</form>`
         ]);
     }
 
